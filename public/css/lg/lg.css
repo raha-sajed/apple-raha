@@ -1,0 +1,101 @@
+header nav {
+  backdrop-filter: blur(5px); }
+  header nav div div ul {
+    max-width: 996px; }
+
+div.menu > nav > ul {
+  width: 996px; }
+
+div.ed-s-h > ul {
+  width: 970px; }
+
+div.donate {
+  animation-name: donate;
+  animation-duration: 6000ms;
+  animation-timing-function: linear;
+  animation-iteration-count: 1; }
+  div.donate > span {
+    display: inline-block;
+    width: 470px;
+    text-align: center;
+    font-size: 14px;
+    padding: 12px 0; }
+    div.donate > span > a {
+      color: #0066cc;
+      animation-name: donate1;
+      animation-duration: 6000ms;
+      animation-timing-function: linear;
+      animation-iteration-count: 1; }
+
+div.top {
+  width: 450px;
+  right: calc(50% - 450px / 2); }
+  div.top > h2 {
+    max-width: 425px;
+    font-size: 48px; }
+
+div.img img {
+  width: 3008px;
+  position: relative;
+  right: calc( 3008px / 2 - 50%);
+  bottom: 0; }
+
+div.post4 div.img img {
+  width: 1262px;
+  position: relative;
+  right: calc( 1262px / 2 - 50%);
+  bottom: 0; }
+
+div.post4 div.post4-2 div.top div.h4 {
+  margin: auto;
+  background-image: url(../../images/post/post6/logo_light__cfvl40z2nzau_large_2x.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 425px;
+  height: 90px;
+  margin-top: 40px; }
+
+div.post4 div.post4-2 div.top div.h5 {
+  margin: auto;
+  margin-top: 200px;
+  background-image: url(../../images/post/post6/logo_tms3__e8qqp5h6h56y_large.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 425px;
+  height: 126px; }
+
+div.post4 div.post4-4 div.top div.h5 {
+  background-image: url(../../images/post/post6/promo_logo_apple_watch_series_8__ee6riplsucuq_large_2x.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 430px;
+  height: 126px; }
+
+div.post4 div.post4-5 div.top div.h5 {
+  background-image: url(../../images/post/post6/logo_tradein__d1fpktgipvki_large_2x.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 430px;
+  height: 126px; }
+
+div.post4 div.post4-6 div.top div.h5 {
+  background-image: url(../../images/post/post6/logo__dcojfwkzna2q_large_2x.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 430px;
+  height: 126px; }
+
+div.post4 div.post4-6 div.top h3 {
+  width: 290px;
+  margin: auto;
+  font-size: 21px; }
+
+div.carousel div.carousel-caption {
+  left: 0; }
+
+footer div.foot {
+  max-width: 980px; }
+  footer div.foot div.part1 {
+    margin: auto; }
+  footer div.foot div.part2 div {
+    width: 20%; }

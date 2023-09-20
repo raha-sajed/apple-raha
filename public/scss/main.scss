@@ -1,0 +1,69 @@
+@import "./xxl/xxl.css" screen and (min-width: 1400px);
+@import "./xl/xl.css" screen and (min-width: 1200px) and (max-width: 1400px);
+@import "./lg/lg.css" screen and (min-width: 992px) and (max-width: 1200px);
+@import "./md/md.css" screen and (min-width: 768px) and (max-width: 992px);
+@import "./sm/sm.css" screen and (min-width: 576px) and (max-width: 768px);
+@import "./xs/xs.css" screen and (max-width: 576px) ;
+
+
+
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+div.wrapper{
+  max-width: 2560px;
+  margin: 0 auto;
+}
+
+
+
+@keyframes donate {
+  0% {
+    background-color: #0066cc;
+    color: #0066cc;
+  }
+  30% {
+    background-color: #0066cc;
+    color: #0066cc;
+  }
+  50% {
+    background-color: #0066cc;
+    color: #ffffff;
+  }
+  80% {
+    background-color: #0066cc;
+    color: #ffffff;
+  }
+  100% {
+    background-color: #ffffff;
+    color: black;
+  }
+}
+@keyframes donate1 {
+  0% {
+    color: #0066cc;
+  }
+  30% {
+    color: #0066cc;
+  }
+  50% {
+    color: #ffffff;
+  }
+  80% {
+    color: #ffffff;
+  }
+  100% {
+    color: #0066cc;
+  }
+}
+
+@font-face {
+  font-family: displaybold;
+  src: url(../fonts/prodisplaybold/SFProDisplay-Bold.eot);
+  src: url(../fonts/prodisplaybold/SFProDisplay-Bold.ttf);
+  src: url(../fonts/prodisplaybold/SFProDisplay-Bold.woff);
+  src: url(../fonts/prodisplaybold/SFProDisplay-Bold.woff2);
+
+}

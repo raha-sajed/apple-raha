@@ -1,0 +1,44 @@
+{
+  "name": "s02-hw",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "scss":"node-sass -w public/scss/ -o public/css/ -r",
+    "xxl":"node-sass -w public/scss/xxl -o public/css/xxl -r",
+    "xl":"node-sass -w public/scss/xl -o public/css/xl -r",
+    "lg":"node-sass -w public/scss/lg -o public/css/lg -r",
+    "md":"node-sass -w public/scss/md -o public/css/md -r",
+    "sm":"node-sass -w public/scss/sm -o public/css/sm -r",
+    "xs":"node-sass -w public/scss/xs -o public/css/xs -r"
+
+
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
+  },
+  "main": "main.js",
+  "dependencies": {
+    "bootstrap": "^5.3.1",
+    "esbuild": "^0.18.17",
+    "fsevents": "^2.3.2",
+    "nanoid": "^3.3.6",
+    "picocolors": "^1.0.0",
+    "postcss": "^8.4.27",
+    "rollup": "^3.27.0",
+    "source-map-js": "^1.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": ":)"
+  },
+  "keywords": [
+    "^-^"
+  ],
+  "author": "raha",
+  "license": "MIT",
+  "description": ""
+}
